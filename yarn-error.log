@@ -1,0 +1,40 @@
+Arguments: 
+  /Users/bitmain/.nvm/versions/node/v10.15.3/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/bitmain/.nvm/versions/node/v10.15.3/bin:/Users/bitmain/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/bitmain/Library/Caches/Yarn/v4/npm-is-extendable-1.0.1-a7470f9e426733d81bd81e1155264e3a3507cab4/node_modules/is-extendable/LICENSE' -> '/Users/bitmain/work/webpack-project/node_modules/regex-not/node_modules/is-extendable/LICENSE'
+
+npm manifest: 
+  {
+    "name": "webpack-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "webpack": "^4.35.0",
+      "webpack-cli": "^3.3.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
